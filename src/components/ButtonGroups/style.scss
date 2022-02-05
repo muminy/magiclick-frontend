@@ -1,0 +1,11 @@
+.actions-buttons {
+  @apply grid-cols-12 col-span-12 xl:gap-x-[75px] lg:gap-x-[75px] gap-y-[24px] gap-x-0;
+
+  button.actin-button {
+    @apply xl:col-span-6 col-span-12;
+  }
+
+  button.responsive-button {
+    @apply border-0 flex justify-center text-center items-center space-x-2 bg-transparent text-dark;
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "USD",
+    "name": "Amerikan Doları",
+    "buying": 6.8399,
+    "selling": 6.8752,
+    "flag": "usa.png"
+  },
+  {
+    "id": "EUR",
+    "name": "Avrupa Para Birimi",
+    "buying": 6.8399,
+    "selling": 6.8752,
+    "flag": "eu.png"
+  },
+  {
+    "id": "JPY",
+    "name": "Japon Yeni",
+    "buying": 7.2883,
+    "selling": 7.4883,
+    "flag": "jpn.svg"
+  },
+  {
+    "id": "GBP",
+    "name": "İngiliz Sterlini",
+    "buying": 8.5583,
+    "selling": 8.5583,
+    "flag": "uk.png"
+  },
+  {
+    "id": "DKK",
+    "name": "Danimarka Kronu",
+    "buying": 1.152,
+    "selling": 1.252,
+    "flag": "dk.png"
+  },
+  {
+    "id": "NOK",
+    "name": "Norveç Kronu",
+    "buying": 0.8041,
+    "selling": 0.8641,
+    "flag": "nok.png"
+  }
+]
