@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// ** styles
 import "./styles/global.css";
 import "./styles/style.scss";
 

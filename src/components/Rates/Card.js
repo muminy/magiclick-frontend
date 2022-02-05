@@ -1,4 +1,8 @@
+import { calculatePrice } from "../../helpers/utils";
+
 export default function MarketCard(props) {
+  const price = calculatePrice(props.price);
+
   return (
     <div className="market-card xl:col-span-6 col-span-12">
       <div className="flag-area">
@@ -12,11 +16,11 @@ export default function MarketCard(props) {
 
       <div className="market-data">
         <div className="data-title">Alış</div>
-        <div className="data-value">{props.buying}</div>
+        <div className="data-value">{price}</div>
       </div>
       <div className="market-data">
         <div className="data-title">Satış</div>
-        <div className="data-value">{props.selling}</div>
+        <div className="data-value">{price}</div>
       </div>
     </div>
   );

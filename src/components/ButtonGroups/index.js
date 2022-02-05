@@ -1,6 +1,10 @@
+// ** components
 import Button from "../Button";
-import RightArrow from "../icons/right-arrow.icon";
+import RightArrow from "../icons/right-arrow.icon"; // icon component
+
 import cn from "classnames";
+
+// ** style
 import "./style.scss";
 
 export default function ButtonGroups({ responsive }) {

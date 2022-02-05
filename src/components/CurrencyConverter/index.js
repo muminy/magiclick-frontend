@@ -1,4 +1,7 @@
+// ** components
 import Converter from "./Converter";
+
+// ** style
 import "./style.scss";
 
 export default function CurrencyConverter() {

@@ -1,6 +1,7 @@
+// ** components
 import ButtonGroups from "./components/ButtonGroups";
 import CurrencyConverter from "./components/CurrencyConverter";
-import Markets from "./components/Markets";
+import Rates from "./components/Rates";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <h1 className="title">Piyasalar</h1>
 
       <div className="content-area">
-        <Markets />
+        <Rates />
         <CurrencyConverter />
         <ButtonGroups responsive />
       </div>
