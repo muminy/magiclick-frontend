@@ -27,7 +27,7 @@ export default function Converter() {
         withOptions
         id="converter"
       />
-      <img src="/assets/images/converter.svg" alt="Converter Image" />
+      <img src="/assets/images/converter.svg" alt="Converter Icon" />
       <Input value={outputValue} />
     </div>
   );

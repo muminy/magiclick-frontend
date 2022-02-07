@@ -6,7 +6,7 @@ export default function MarketCard(props) {
   return (
     <div className="market-card xl:col-span-6 col-span-12">
       <div className="flag-area">
-        <img src={`assets/images/flags/${props.flag}`} />
+        <img alt={`flag icon`} src={`assets/images/flags/${props.flag}`} />
       </div>
 
       <div className="market-name">
