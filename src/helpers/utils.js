@@ -1,3 +1,3 @@
 export const calculatePrice = (price) => {
-  return (1 / price).toFixed(4);
+  return (1 / price).toFixed(4).replace(".", ",");
 };

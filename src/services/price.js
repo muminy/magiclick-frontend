@@ -6,6 +6,7 @@ export const handleGetPrices = async () => {
 };
 
 export const handleConvertPrice = async ({ from, value }) => {
+  if (!value) return { result: "" };
   const price = await api.get(convert(from, value));
   return price.data;
 };

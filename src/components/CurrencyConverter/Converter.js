@@ -10,11 +10,15 @@ export default function Converter() {
   const [from, setFrom] = useState("USD");
   const [inputValue, setInputValue] = useState(1);
   const [outputValue, setOutputValue] = useState();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    handleConvertPrice({ from, value: inputValue }).then((response) => {
-      setOutputValue(response.result);
-    });
+    setLoading(true);
+    handleConvertPrice({ from, value: inputValue })
+      .then((response) => {
+        setOutputValue(response.result);
+      })
+      .finally(() => setLoading(false));
   }, [from, inputValue]);
 
   return (
@@ -28,7 +32,7 @@ export default function Converter() {
         id="converter"
       />
       <img src="/assets/images/converter.svg" alt="Converter Icon" />
-      <Input value={outputValue} />
+      <Input value={loading ? "" : outputValue} />
     </div>
   );
 }
